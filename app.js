@@ -5,7 +5,7 @@ const _ = require("lodash");
 
 const app = express();
 const mongoose = require("mongoose");
-let source  = require(__dirname + "/.gitignore/ignore.js");
+let source  = require(__dirname + "/credentials/ignore.js");
 
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended:true}));
